@@ -22,5 +22,8 @@ export class Auth {
     @Prop()
     mobile: number
 
+    @Prop()
+    result: string
+
 }
 export const AuthSchema = SchemaFactory.createForClass(Auth)

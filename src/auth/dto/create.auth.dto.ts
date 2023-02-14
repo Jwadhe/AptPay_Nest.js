@@ -1,4 +1,5 @@
 import { ApiProperty } from "@nestjs/swagger";
+import { } from "class-validator"
 
 
 export class CreateAuthDto {
@@ -16,6 +17,8 @@ export class CreateAuthDto {
 
   @ApiProperty()
   mobile: number;
+
+  result: string;
 
 //   @ApiProperty({ required: false, default: true })
 //   isEnabled?: boolean = true;
